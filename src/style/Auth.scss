@@ -1,0 +1,47 @@
+
+
+.auth-title {
+    background-color: green;
+    border-radius:25px;
+    width:150px;
+    
+    color:red !important;
+}
+.auth-title:hover{
+    cursor: pointer;
+    transform:translateY(0.5s);
+}
+.verify-title {
+    color:red!important;
+    font-size: 28px;
+}
+
+.errorMessage-auth {
+    position: relative;
+    box-sizing: border-box;
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+    top: 2.3em;
+}
+
+.successMessage-auth {
+    position: relative;
+    box-sizing: border-box;
+    color: #f75422af;
+    font-size: 20px;
+    font-weight: 500;
+    top: 2.3em;
+}
+.manualFormOpenBtn
+{
+    background-color: green;
+    border-radius:25px;
+    height:25px;
+    color:red;
+    font-size:larger;
+}
+.manualFormOpen
+{
+    color:black;
+}
