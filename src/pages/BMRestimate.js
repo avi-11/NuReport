@@ -73,7 +73,7 @@ const BMRestimate = (props) => {
     }
 
     return (
-        <div classname="jock">
+        <div>
             <div className="BMRestimate">Approx <span className="BMRNum">{BMRestimate}</span> Kcal per day</div>
             <div className="error">{error}</div>
             <form className="addItemForm" onSubmit={(e) => calcBMR(e)}>
